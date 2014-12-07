@@ -30,12 +30,15 @@ function wc_phone_order_render_meta( $post ) {
 
 	$order = new WC_Order($post->ID);
 
-	if ( empty( $order->get_total() ) ) {
+	$total = $order->get_total();
+	$needs_payment = $order->needs_payment();
+
+	if ( empty( $total ) ) {
 		echo 'Please calculate totals and save before adding a payment.';
 		return;
 	}
 
-	if ( !$order->needs_payment() ) {
+	if ( $needs_payment === false ) {
 		echo "Payment Complete";
 		return;
 	}
@@ -58,6 +61,7 @@ add_action( 'add_meta_boxes', 'wc_phone_order_add_meta_box' );
  */
 function wc_phone_order_scripts() {
 	wp_enqueue_script( 'wc-phone-order-script', plugin_dir_url( __FILE__ ) . 'assets/js/main.js' );
+	wp_enqueue_script( 'wc-phone-order-blockui', plugin_dir_url( __FILE__ ) . 'assets/vendor/blockui/jquery.blockUI.js' );
 }
 
 add_action( 'admin_enqueue_scripts', 'wc_phone_order_scripts' );
