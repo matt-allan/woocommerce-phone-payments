@@ -35,8 +35,8 @@ function wc_phone_order_render_meta( $post ) {
 		return;
 	}
 
-	if ( !$order->has_status('pending') ) {
-		echo "Order status must be 'pending payment' to take payment.";
+	if ( !$order->needs_payment() ) {
+		echo "Payment Complete";
 		return;
 	}
 
