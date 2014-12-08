@@ -1,4 +1,4 @@
-woocommerce-phone-order
+woocommerce-phone-payments
 =======================
 
 Adds the ability to add payments to Woocommerce orders from the order admin screen.
