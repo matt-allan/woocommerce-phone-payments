@@ -30,7 +30,6 @@ This plugin basically opens a checkout window for the current order so you can a
 3. Install the plugin.
 4. Click activate plugin.
 
-
 = Manual installation =
 
 1. Download the plugin.
@@ -44,7 +43,6 @@ This plugin basically opens a checkout window for the current order so you can a
 This plugin uses the standard Woocommerce checkout page, so if it works with Woocommerce it will work.
 
 Please note that not all merchant accounts allow manual order entry.  **It is your responsiblity to verify your merchant allows processing transactions in this manner.**
-
 
 = Where can I get support? =
 I am not offering support at this time.  Please report any issues to the [Github page](https://github.com/matthew-james/woocommerce-phone-payments/issues).
