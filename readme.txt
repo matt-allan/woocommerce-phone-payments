@@ -1,7 +1,7 @@
 === WooCommerce Phone Payments ===
 Contributors: matthew-james
 Tags: cart, e-commerce, ecommerce, point-of-sale, pos, woocommerce,
-Requires at least: 4.0.1 & WooCommerce 2.1
+Requires at least: 4.0.1 & WooCommerce 2.2
 Tested up to: 4.0.1
 Stable tag: trunk
 License: GPLv2 or later
@@ -19,7 +19,7 @@ This plugin basically opens a checkout window for the current order so you can a
 * GitHub: https://github.com/matthew-james/woocommerce-phone-payments
 
 = REQUIREMENTS =
-* WooCommerce >= 2.1.0
+* WooCommerce >= 2.2.0
 
 == Installation ==
 
