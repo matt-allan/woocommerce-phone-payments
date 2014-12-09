@@ -15,8 +15,8 @@ Woocommerce doesn't offer a way to add payments to manually created orders other
 
 This plugin basically opens a checkout window for the current order so you can add payments using any installed and active payment gateway.
 
-= MORE INFO =
-* GitHub: https://github.com/kilbot/WooCommerce-POS
+= Screenshots and Usage Info =
+* GitHub: https://github.com/matthew-james/woocommerce-phone-payments
 
 = REQUIREMENTS =
 * WooCommerce >= 2.1.0
@@ -39,10 +39,14 @@ This plugin basically opens a checkout window for the current order so you can a
 
 == Frequently Asked Questions ==
 
-= Does this work with (my payment gateway)?
+= Does this work with (my payment gateway)? =
 This plugin uses the standard Woocommerce checkout page, so if it works with Woocommerce it will work.
 
 Please note that not all merchant accounts allow manual order entry.  **It is your responsiblity to verify your merchant allows processing transactions in this manner.**
+
++ My customers are getting 2 emails per transaction =
+
+Since you need to save the order before adding a payment, your order is marked as a new order before being changed to processing.  Turning off the email notification for 'new order' will make sure you are only sending an order upon successful payment.
 
 = Where can I get support? =
 I am not offering support at this time.  Please report any issues to the [Github page](https://github.com/matthew-james/woocommerce-phone-payments/issues).
