@@ -1,15 +1,19 @@
 woocommerce-phone-payments
 =======================
 
+## UNMAINTAINED
+
+This project is no longer maintained.
+
 Adds the ability to add payments to Woocommerce orders from the order admin screen.
 
-#How It Works
+# How It Works
 
 Woocommerce doesn't offer a way to add payments to manually created orders other than e-mailing an invoice to the customer.
 
 This plugin basically opens a checkout window for the current order so you can add payments using any installed and active payment gateway.
 
-#Usage
+# Usage
 
 * Activate the plugin
 * Create a new order, add line items, calculate total, and save.
