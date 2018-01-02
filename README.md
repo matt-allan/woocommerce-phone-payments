@@ -1,11 +1,11 @@
 woocommerce-phone-payments
 =======================
 
+Adds the ability to add payments to Woocommerce orders from the order admin screen.
+
 ## UNMAINTAINED
 
 This project is no longer maintained.
-
-Adds the ability to add payments to Woocommerce orders from the order admin screen.
 
 # How It Works
 
